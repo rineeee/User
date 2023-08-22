@@ -1,4 +1,4 @@
-package com.example.userservice.security;
+package com.example.userservice.presentation.security;
 
 import com.example.userservice.dto.UserDto;
 import com.example.userservice.service.UserService;
