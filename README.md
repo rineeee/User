@@ -1,8 +1,7 @@
 # User service
 
 [MSA PROJECT] E-cart의 유저 서비스
-
-<img width="1402" alt="auth (1)" src="https://github.com/rineeee/User/assets/62981406/0147aac2-5518-4bb3-9f20-2eda14c7676c">
+<img width="1098" alt="auth" src="https://github.com/rineeee/User/assets/62981406/d46ca883-92f2-4579-a3e4-f863fcef08bd">
 
 - Discovery
   - Eureka Client
