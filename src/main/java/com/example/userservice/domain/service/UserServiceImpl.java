@@ -1,9 +1,9 @@
-package com.example.userservice.service;
+package com.example.userservice.domain.service;
 
 import com.example.userservice.presentation.client.OrderServiceClient;
 import com.example.userservice.dto.UserDto;
-import com.example.userservice.repository.UserEntity;
-import com.example.userservice.repository.UserRepository;
+import com.example.userservice.domain.entity.UserEntity;
+import com.example.userservice.infrastructure.db.jpa.UserRepository;
 import com.example.userservice.vo.ResponseOrder;
 import lombok.extern.slf4j.Slf4j;
 import org.modelmapper.ModelMapper;
