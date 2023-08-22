@@ -4,17 +4,22 @@
 
 <img width="1402" alt="auth (1)" src="https://github.com/rineeee/User/assets/62981406/0147aac2-5518-4bb3-9f20-2eda14c7676c">
 
-- Eureka Client
-- Spring Cloud Config
-- Spring Actuator
-- Spring Cloud Bus
-- Open Feign
-- Resilience4j - Circuit Breaker
+- Discovery
+  - Eureka Client
+  
+- Config
+  - Spring Cloud Config
+  - Spring Actuator
+  - Spring Cloud Bus
 
-- Spring Security
-- JPA
-- H2
+- Client
+  - Open Feign
+  - Resilience4j - Circuit Breaker
 
-- Sleuth
-- Zipkin
-- Prometheus
+- Monitoring
+  - Sleuth
+  - Zipkin
+  - Prometheus
+
+- Auth
+  - Spring Security
