@@ -1,6 +1,6 @@
 package com.example.userservice.presentation.security;
 
-import com.example.userservice.service.UserService;
+import com.example.userservice.domain.service.UserService;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.env.Environment;
 import org.springframework.security.authorization.AuthorizationDecision;
