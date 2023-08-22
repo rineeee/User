@@ -22,3 +22,7 @@
 
 - Auth
   - Spring Security
+
+- DB
+  - JPA
+  - H2
