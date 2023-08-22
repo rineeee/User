@@ -86,24 +86,7 @@ public class UserServiceImpl implements UserService {
 
         UserDto userDto = new ModelMapper().map(userEntity, UserDto.class);
 
-//        List<ResponseOrder> orders = new ArrayList<>();
-        /* Using as rest template */
-//        String orderUrl = String.format(env.getProperty("order_service.url"), userId);
-//        ResponseEntity<List<ResponseOrder>> orderListResponse =
-//                restTemplate.exchange(orderUrl, HttpMethod.GET, null,
-//                new ParameterizedTypeReference<List<ResponseOrder>>() {
-//        });
-//        List<ResponseOrder> orderList = orderListResponse.getBody();
 
-        /* Using a feign client */
-//        List<ResponseOrder> orderList = null;
-//        try{
-//            orderList = orderServiceClient.getOrders(userId);
-//        } catch (FeignException ex){
-//            log.error(ex.getMessage());
-//        }
-
-//        List<ResponseOrder> orderList = orderServiceClient.getOrders(userId);
         log.info("Before call orders microservice");
         CircuitBreaker circuitBreaker = circuitBreakerFactory.create("circuitbreak");
         List<ResponseOrder> orderList = circuitBreaker.run(() -> orderServiceClient.getOrders(userId),
