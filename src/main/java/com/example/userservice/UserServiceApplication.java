@@ -1,6 +1,6 @@
 package com.example.userservice;
 
-import com.example.userservice.error.FeignErrorDecoder;
+import com.example.userservice.common.error.FeignErrorDecoder;
 import feign.Logger;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
