@@ -10,7 +10,7 @@
   - Spring Cloud Config
   - Spring Actuator
   - Spring Cloud Bus
-  - rabbitmq
+  - Rabbitmq
 
 - Client
   - Open Feign
