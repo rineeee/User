@@ -1,11 +1,11 @@
-package com.example.userservice.presentation.controller;
+package com.example.userservice.application.rest;
 
 import com.example.userservice.domain.service.dto.UserDto;
 import com.example.userservice.domain.entity.UserEntity;
 import com.example.userservice.domain.service.UserService;
-import com.example.userservice.presentation.controller.vo.Greeting;
-import com.example.userservice.presentation.controller.vo.RequestUser;
-import com.example.userservice.presentation.controller.vo.ResponseUser;
+import com.example.userservice.application.rest.vo.Greeting;
+import com.example.userservice.application.rest.vo.RequestUser;
+import com.example.userservice.application.rest.vo.ResponseUser;
 import io.micrometer.core.annotation.Timed;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.convention.MatchingStrategies;

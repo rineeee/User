@@ -1,6 +1,6 @@
-package com.example.userservice.presentation.controller.vo;
+package com.example.userservice.application.rest.vo;
 
-import com.example.userservice.presentation.client.vo.ResponseOrder;
+import com.example.userservice.application.client.vo.ResponseOrder;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;
 
